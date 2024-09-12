@@ -1,0 +1,6 @@
+example|http://example.com
+google|http://google.com
+youtube|http://youtube.com
+facebook|http://facebook.com
+tiktok|http://tiktok.com
+pornhub|http://pornhub.com
