@@ -17,3 +17,12 @@ facebook|http://facebook.com
 tiktok|http://tiktok.com
 pornhub|http://pornhub.com
 ```
+## file structure
+the file structure should look like this:
+```
+└── basic-search-engine
+    ├── cgi-bin
+    │   └── search.sh
+    ├── db.txt
+    └── index.html
+```
