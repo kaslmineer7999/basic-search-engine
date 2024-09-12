@@ -26,3 +26,39 @@ the file structure should look like this:
     ├── db.txt
     └── index.html
 ```
+## how to install
+this guide will show the minimlist way to serve this basic search engine
+
+1. install busybox by running
+- on arch (and arch-based distrbutions such as manjaro):
+  ```
+  sudo pacman -S busybox
+  ```
+- on debian/ubuntu (or any debian/ubuntu-based distrbution)
+  ```
+  sudo apt install busybox -y
+  ```
+- on fedora/RHEL:
+  ```
+  sudo dnf install busybox
+  ```
+2. make sure that `busybox httpd` has the `-d` option by running
+   ```
+   busybox httpd --help|grep -i -- '-d'
+   ```
+   - if it outputs stuff about the `-d` option that means you're good
+   - if it doesn't DO NOT CONTUINE
+3. clone the repo by running:
+   ```
+   git clone https://github.com/kaslmineer7999/basic-search-engine ~/basic-search-engine
+   ```
+4. make sure everything in ~/basic-search-engine/cgi-bin is executable:
+   ```
+   chmod 755 ~/basic-search-engine/cgi-bin/*
+   ```
+5. start the server:
+   ```
+   echo "press ctrl+c to stop the server, and its avaliable at http://127.0.0.1:5555"
+   busybox httpd -h ~/basic-search-engine -p 127.0.0.1:5555 -f -v
+   ```
+6. you're now done!      
