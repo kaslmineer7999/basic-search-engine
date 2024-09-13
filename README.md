@@ -6,6 +6,9 @@ its simply a HTML form that sends your query into a
 bash CGI (not to be confused with Computer-generated imagery) script
 
 that would search a text database contanied in `document root/db.txt` for the search term.
+## how to find the code
+SCROLL UP YOU MORON
+
 ## demo
 https://github.com/user-attachments/assets/6d6ab6a0-908e-4ff3-a03e-f3e830f49544
 
