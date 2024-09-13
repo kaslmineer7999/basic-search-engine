@@ -18,7 +18,6 @@ google|http://google.com
 youtube|http://youtube.com
 facebook|http://facebook.com
 tiktok|http://tiktok.com
-pornhub|http://pornhub.com
 ```
 ## file structure
 the file structure should look like this:
