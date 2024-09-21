@@ -8,7 +8,8 @@ bash CGI (not to be confused with Computer-generated imagery) script
 that would search a text database contanied in `document root/db.txt` for the search term.
 
 ## demo
-https://github.com/user-attachments/assets/6d6ab6a0-908e-4ff3-a03e-f3e830f49544
+
+https://github.com/user-attachments/assets/d4368c69-6aef-4361-958f-fc7711fae4c5
 
 ## sample database
 a sample database should look like this:
