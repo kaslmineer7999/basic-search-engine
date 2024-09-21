@@ -1,8 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head><meta charset="UTF-8"><title>search engine</title></head>
+<head>
+<meta charset="UTF-8">
+<title>search engine</title>
+<style>
+html {
+	background-color:#404040;
+}
+.logo {
+	position:absolute;
+	top:35%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	margin-top:1.2rem;
+	color:white;
+}
+form {
+	position:absolute;
+	top:45%;
+	left:50%;
+	transform:translate(-50%, -50%);
+}
+form > button {
+	cursor:pointer;
+	border-radius:1.25rem;
+	padding:0.625rem;
+	background-color:#808080;
+	color:white;
+	font-size:15px;
+}
+form > input {
+	border-radius:1.25rem;
+	padding:0.625rem;
+	font-size:15px;
+}
+form > button > img {
+	width:20px;
+	position:absolute;
+	transform:translate(-30%, -10%)
+}
+</style>
+</head>
 <body>
-<h1>enter any query</h1>
-<form action="/cgi-bin/search.sh" method="GET"><input type="text" name="q" placeholder="enter search query here...."><br><button type="submit">search</button></form>
+<h1 class="logo">basic-search-engine</h1>
+<form action="/cgi-bin/search.sh" method="GET">
+<input type="text" name="q" placeholder="enter search query here....">
+<button type="submit"><img src="search-icon.png" alt="search icon">&nbsp;&nbsp;&nbsp;&nbsp;search</button>
+</form>
 </bdoy>
 </html>
